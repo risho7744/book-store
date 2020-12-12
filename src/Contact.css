@@ -1,0 +1,93 @@
+.contact {
+    font-family: ubuntu, sans-serif;
+    background-image: url('./bookcard_BG.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    margin: 20px 30px 0 0 ;
+    padding: 20px 0 100px 0;
+    text-align: center;
+
+}
+
+h3, h2 {
+    padding: 10px 0 10px 0;
+}
+
+.contact strong {
+    color: #4169E1;
+}
+
+.contact hr {
+    width: 150px;
+    border: 1px solid #1C1E2E;
+}
+
+.contactcard {
+    display: flex;
+    justify-content: center;
+    display: flex;
+    overflow-y: hidden;
+    overflow-x: scroll;
+    margin: 10px 0 0 0;
+
+}
+
+.contactcard div {
+    text-justify: centers;
+    margin: 40px 40px 0 40px;
+    padding: 20px;
+    width: 165px;
+    height: 180px;
+    border-radius: 8px;
+    box-shadow: 0px 6px 18px -9px #1C1E2E;
+    color: #1C1E2E;
+    
+}
+
+.one, .two, .three, .four {
+    transition: transform 100ms ease-in;
+    cursor: pointer;
+}
+
+.one:hover, .two:hover, .three:hover, .four:hover {
+    transform: scale(1.07);
+}
+
+.contactcard input {
+    width: 100px;
+    border: transparent;
+    border-radius: 5px;
+    
+}
+
+.MuiSvgIcon-root {
+    margin: 5px 0 25px  0;
+}
+
+.contactcard .four {
+    padding: 50px 0 0 0;
+}
+
+.contactcard  hr {
+    width: 50px;
+    border: 1px solid #1C1E2E;
+}
+
+@media screen and (max-width: 375px) {
+    .contactcard .four {
+        padding: 50px 0 0 0;
+        width: max-content;
+        margin-right: 150px;
+    }
+
+    .four input {
+        width: 150px;
+        background-color: #F2F2F2;
+
+    }
+
+    .contactcard div {
+        margin: 0 10px 0 0;
+    }
+}

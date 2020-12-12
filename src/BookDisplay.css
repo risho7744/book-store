@@ -1,0 +1,126 @@
+.BookCards {
+    background-image: url('./bookcard_BG.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 120px 0 0 0 ;
+    padding: 30px 0 30px 0;
+    
+}
+
+.displaycards {
+    display: flex;
+    overflow-y: hidden;
+    overflow-x: scroll;
+    margin: 10px 0 0 0;
+    box-shadow: 0px 6px 18px -9px #1C1E2E;
+}
+
+.displaycards::-webkit-scrollbar {
+    display: none;
+}
+
+.displaycards > ul {
+    list-style: none;
+}
+
+#addform {
+    margin: 130px 100px 100px 100px;
+    display: flex;
+    flex-direction: column;
+    /* border: 2px solid red; */
+}
+
+.form {
+    display: flex;
+    flex-direction: row;
+    margin: 20px 80px 25px 50px;
+    justify-content: center;
+    box-shadow: 0px 6px 18px -9px rgba(0, 0, 0, 0.75);
+}
+
+.auth {
+    display: grid;
+    grid-template-rows: repeat(2, auto);
+    grid-gap: 10px;
+    padding: 20px;
+}
+
+.details {
+    display: grid;
+    grid-template-rows: repeat(4, auto);
+    grid-gap: 10px;
+    margin: 0 100px 0 0;
+    width: 30%;
+    padding: 0 0 40px 0;
+}
+
+.button {
+    background: #4169E1;
+    font-family: ubuntu, sans-serif;
+}
+.heading1-addbook {
+    color: #1C1E2E;
+    font-family: ubuntu, sans-serif;
+    text-align: center;
+    padding: 20px 0 0 0;
+}
+
+.heading-availablebooks {
+    color: #1C1E2E;
+    font-family: ubuntu, sans-serif;
+    text-align: center;
+    padding: 0 0 0 0;
+    margin: 300px 0 0 0;
+}
+
+@media screen and (max-width: 375px) {
+    .form {
+        font-size: 2vw;
+        display: flex;
+        flex-direction: column;
+        margin: 0 -100px 0 -100px;
+        justify-content: start;
+        box-shadow: 0px 6px 18px -9px rgba(0, 0, 0, 0.75);
+    }
+
+    .details {
+        display: grid;
+        grid-template-rows: repeat(2, auto);
+        grid-gap: 20px;
+        padding: 0 0 20px 20px ;
+        margin: 0 20px 0 0;
+        width: 90%;
+    }
+
+    .details input {
+        padding: 0 0 30px 0;
+        width: 80%;
+    }
+
+    .heading1-addbook {
+        color: #1C1E2E;
+        font-family: ubuntu, sans-serif;
+        text-align: center;
+        font-size: 9vw;
+        padding: 20px 0 0 0;
+        width: 100%;
+
+    }
+
+    .heading-availablebooks {
+        color: #1C1E2E;
+        font-family: ubuntu, sans-serif;
+        text-align: center;
+        padding: 0 0 0 0;
+        margin: 50px 0 0 0;
+    }
+
+    .BookCards {
+        background-image: url('./bookcard_BG.png');
+        background-position: center;
+        background-repeat: no-repeat;
+        margin: 20px 0 0 0 ;
+        padding: 30px 0 30px 0;
+        
+    }
+}

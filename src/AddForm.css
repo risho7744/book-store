@@ -1,0 +1,43 @@
+.form {
+    display: flex;
+    flex-flow: wrap;
+    justify-content: center;
+    margin: 50px 30px 150px 20px;
+    padding: 10px 35px 0 35px ;
+    border-radius: 15px;
+    border: 200px;
+    border-color: 2px solid #1C1E2E;
+    background-color: white;
+    
+}
+
+.button {
+    margin-top: 10px;
+}
+
+#standard-basic {
+    margin-top: 10px;
+}
+
+h1 {
+    color: #1C1E2E;
+    font-family: ubuntu, sans-serif;
+    margin-bottom: 5px;
+    padding: 0 0 0 250px;
+}
+
+.line1, .line2,.line3{
+    display: flex;
+    padding: 10px;
+}
+
+.line1 {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 10px 0 10px;
+}
+
+.line2{
+    width: 100%;
+}

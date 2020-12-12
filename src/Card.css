@@ -1,0 +1,51 @@
+.cards {
+    margin: 30px;
+    width: max-content;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0px 6px 18px -9px rgba(0, 0, 0, 0.75);
+    transition: transform 100ms ease-in;
+    cursor: pointer;
+    /* height: 300px; */
+}
+
+.cards:hover {
+    transform: scale(1.07);
+}
+
+/* .cards > img {
+    object-fit: fill;
+    /* min-width: 300px;
+    min-height: 200px; 
+    max-height: 200px;
+    min-width: 200px;
+} */
+
+.book_info {
+    margin-top: -9px;
+    border-radius: 10px;
+    padding: 20px;
+    padding-top: 20px;
+    border: 1;
+}
+
+.book_info > h3 {
+    color: #4169E1;
+    font-family: open-sans, sans-serif;
+    font-size: 18px;
+    font-weight: 800;
+    max-width: fit-content;
+}
+
+.book_info > h4 {
+    color: #1C1E2E;
+    font-family: open-sans, sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+
+.book_info hr {
+    border: 1px solid #1C1E2E;
+}
